@@ -2,8 +2,8 @@
 let inc=document.getElementById("counter");
 let i=0;
 function increment()
-{alert(i);
-	i++
+{	i++
+ alert(i);
 	inc.innerHTML=i;
 	
 }
